@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bringing Web Pages to Life</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+
+  <!-- Part 1: CSS transitions -->
+  <button class="hover-btn">Hover Me</button>
+
+  <!-- Part 2 & 3: Functions + Triggered Animations -->
+  <div class="box"></div>
+  <button id="animateBtn">Animate Box</button>
+
+  <div class="card" id="flipCard">
+    <div class="card-inner">
+      <div class="card-front">FRONT</div>
+      <div class="card-back">BACK</div>
+    </div>
+  </div>
+
+  <button id="openModal">Open Modal</button>
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <span id="closeModal">&times;</span>
+      <p>This is a modal with CSS + JS animation.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
